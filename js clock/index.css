@@ -5,15 +5,38 @@ body {
   cursor: pointer;
 }
 h1 {
-  color: #34495e;
+  color: black;
+  position: absolute;
+  left: 45%;
+  top: 20%;
 }
 .clicked {
   color: #7f8c8d;
 }
 
+.js-weather {
+  position: absolute;
+  right: 3%;
+  top: 2%;
+}
+
 .form,
 .greetings {
   display: none;
+  position: absolute;
+  left: 44%;
+  top: 40%;
+}
+.js-toDoForm {
+  position: absolute;
+  left: 44%;
+  top: 50%;
+}
+.js-toDoList {
+  position: absolute;
+  left: 42%;
+  top: 55%;
+  list-style-type: none;
 }
 
 .showing {

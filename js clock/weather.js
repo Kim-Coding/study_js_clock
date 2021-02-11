@@ -1,6 +1,6 @@
 const weather = document.querySelector(".js-weather");
 
-const API_KEY = ""; //API_KEY 넣어어햠
+const API_KEY = "9ad78460d7941362297cf1369919abb2";
 const COORDS = "coords";
 
 function getWeather(lat, lon) {
@@ -13,7 +13,7 @@ function getWeather(lat, lon) {
     .then(function (json) {
       const temperature = json.main.temp;
       const place = json.name;
-      weather.innerHTML = `${temperature} @ ${place}`;
+      weather.innerHTML = `현재 온도 : ${temperature} / 위치 : ${place}`;
     });
 }
 
